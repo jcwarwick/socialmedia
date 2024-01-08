@@ -9,7 +9,7 @@ const {
     deleteUser,
     addFriend,
     removeFriend,
-} = require('../../controllers/userController');
+} = require('./userController');
 
 // CRUD operations that can be done on the root api/users path
 router.route('/')
